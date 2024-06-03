@@ -9,9 +9,9 @@ namespace FlightAPI.Controllers
     {
         private Book[] _books =
         [
-            new Book { Id = 1, Name = "Book1", AuthorName = "Author1" },
-            new Book { Id = 2, Name = "Book2", AuthorName = "Author2" },
-            new Book { Id = 3, Name = "Book3", AuthorName = "Author3" }
+            new Book { Id = 1, Title = "Book1", Author = "Author1" },
+            new Book { Id = 2, Title = "Book2", Author = "Author2" },
+            new Book { Id = 3, Title = "Book3", Author = "Author3" }
         ];
 
         [HttpGet]
